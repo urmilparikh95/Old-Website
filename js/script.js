@@ -62,12 +62,10 @@ $(document).ready(function () {
   $.get("http://ipinfo.io", function (response) {
     if ($(window).width() < 751) {
       content = "<" + h + ":" + m + ">";
-      len = content.length;
     } else {
-      h = " " + h;
       content = h + ":" + m + " <root@" + response.ip + ">";
-      len = content.length + 3;
     }
+    len = content.length+2.3;
     $('head').append('<style>.shell-body li:before{content: "' + content + '" !important;}</style>');
     $('head').append('<style>.tab {padding-left: ' + len + 'ch;}</style>');
   }, "jsonp");

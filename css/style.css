@@ -184,6 +184,8 @@ body {
 @media only screen and (max-width: 1200px) {
   .shell-wrap {
     width: 100%;
+  }
+  .shell-body {
     overflow-y: scroll;
     overflow: -moz-scrollbars-vertical;
   }
@@ -192,6 +194,8 @@ body {
 @media only screen and (min-width: 1201px) {
   .shell-wrap {
     width: 1200px;
+  }
+  .shell-body {
     overflow-y: scroll;
     overflow: -moz-scrollbars-vertical;
   }
@@ -247,7 +251,7 @@ body {
 
 .shell-body li:before {
   font-weight: bold;
-  padding-left: 1ch;
+  /* padding-left: 1ch; */
   position: absolute;
   left: 0;
   top: 0;
