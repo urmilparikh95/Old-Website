@@ -59,10 +59,12 @@ body {
   opacity: 0.5;
   transition: 0.3s;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .bottom a:hover {
   opacity: 1;
+  text-decoration: none;
 }
 
 .bottom a:link {
@@ -309,7 +311,7 @@ body {
     text-align: center;
     font-family: 'Montserrat';
     font-size: 4vh;
-    padding-top: 25%;
+    padding-top: 35%;
   }
 
   .contact a {
