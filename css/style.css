@@ -40,6 +40,7 @@ body {
   transition: 0.3s;
   font-weight: 200;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .top span:hover {
