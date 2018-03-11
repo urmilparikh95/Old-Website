@@ -60,14 +60,13 @@ $(document).ready(function () {
   }
 
   $.get("http://ipinfo.io", function (response) {
-    var content;
     if ($(window).width() < 751) {
-      content = h + ":" + m;
+      content = "<" + h + ":" + m + ">";
+      len = content.length;
     } else {
       content = h + ":" + m + " <root@" + response.ip + ">";
+      len = content.length + 3;
     }
-    setTimeout(function(){console.log($('.shell-body li').width());},3000)
-    len = content.length+3;
     $('head').append('<style>.shell-body li:before{content: "' + content + '" !important;}</style>');
     $('head').append('<style>.tab {padding-left: ' + len + 'ch;}</style>');
   }, "jsonp");
