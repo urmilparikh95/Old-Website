@@ -2,27 +2,27 @@ $(document).ready(function () {
   var bg = $('#home');
   var i = 1;
 
-  setInterval(function () {
+  // setInterval(function () {
 
-    bg.fadeOut(2000, function () {
-      bg.css({
-        "height": "100vh",
-        "background": "url(img/b0" + i + ".jpg)  no-repeat",
-        "-webkit-background-size": "cover",
-        "-moz-background-size": "cover",
-        "-o-background-size": "cover",
-        "background-size": "cover",
-        "background-position": "center"
-      });
-      bg.fadeIn(2000);
-    });
+  //   bg.fadeOut(2000, function () {
+  //     bg.css({
+  //       "height": "100vh",
+  //       "background": "url(img/b0" + i + ".jpg)  no-repeat",
+  //       "-webkit-background-size": "cover",
+  //       "-moz-background-size": "cover",
+  //       "-o-background-size": "cover",
+  //       "background-size": "cover",
+  //       "background-position": "center"
+  //     });
+  //     bg.fadeIn(2000);
+  //   });
 
-    i = i + 1;
-    if (i > 7) {
-      i = 1;
-    }
+  //   i = i + 1;
+  //   if (i > 7) {
+  //     i = 1;
+  //   }
 
-  }, 250000);
+  // }, 250000);
 
   $('#about').click(function () {
     $('.tab-content').removeClass('current');
