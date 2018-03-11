@@ -75,6 +75,7 @@ $(document).ready(function () {
 new TypeIt('.shell-body', {
   // other options
   speed: 15,
+  lifeLike: false,
   cursorChar: '&#9608;',
   callback: function () {
     $('.project').click(function () {
