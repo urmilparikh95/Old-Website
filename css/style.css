@@ -6,7 +6,7 @@ body {
 .home-page {
   height: 100vh;
   background: url(../img/b01.jpg) no-repeat;
-  -webkit-background-size: cover;
+  -webkit-background-size: 100%;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -15,7 +15,6 @@ body {
   background-attachment: fixed;
   position: absolute;
   overflow: hidden;
-  object-fit: cover;
 }
 
 .sidenav {
