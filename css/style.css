@@ -64,6 +64,14 @@ body {
   opacity: 1;
 }
 
+.bottom a:link {
+  text-decoration: none;
+}
+
+.bottom a:visited {
+  text-decoration: none;
+}
+
 .sidenav .closebtn {
   width: 2vh;
   height: 2vh;
@@ -295,20 +303,40 @@ body {
   font-size: 3vh;
 }
 
-.contact {
-  text-align: center;
-  font-family: 'Montserrat';
-  font-size: 5vh;
-  padding-top: 25%;
+@media only screen and (max-width: 750px) {
+  .contact {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 4vh;
+    padding-top: 25%;
+  }
+
+  .contact a {
+    padding: 2.5vh 2.5vh 2.5vh 2.5vh;
+    font-size: 6vh;
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #141414;
+  }
 }
 
-.contact a {
-  padding: 3.5vh 3.5vh 3.5vh 3.5vh;
-  font-size: 7vh;
-  opacity: 1;
-  transition: 0.3s;
-  cursor: pointer;
-  color: #141414;
+@media only screen and (min-width: 751px) {
+  .contact {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 5vh;
+    padding-top: 25%;
+  }
+
+  .contact a {
+    padding: 3.5vh 3.5vh 3.5vh 3.5vh;
+    font-size: 7vh;
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #141414;
+  }
 }
 
 .contact a:hover {
