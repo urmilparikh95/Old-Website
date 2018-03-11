@@ -184,7 +184,7 @@ body {
 @media only screen and (max-width: 1200px) {
   .shell-wrap {
     width: 100%;
-    overflow-y: auto;
+    overflow-y: scroll;
     overflow: -moz-scrollbars-vertical;
   }
 }
@@ -192,6 +192,8 @@ body {
 @media only screen and (min-width: 1201px) {
   .shell-wrap {
     width: 1200px;
+    overflow-y: scroll;
+    overflow: -moz-scrollbars-vertical;
   }
 }
 
