@@ -6,7 +6,7 @@ body {
 .home-page {
   height: 100vh;
   background: url(../img/b01.jpg) no-repeat;
-  -webkit-background-size: 100%;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -180,6 +180,18 @@ body {
   border-radius: 3px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .shell-wrap {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .shell-wrap {
+    width: 1200px;
+  }
+}
+
 .shell-top-bar {
   text-align: center;
   color: #525252;
@@ -230,7 +242,7 @@ body {
 
 .shell-body li:before {
   font-weight: bold;
-  padding-left: 1vh;
+  padding-left: 1em;
   position: absolute;
   left: 0;
   top: 0;
@@ -244,7 +256,6 @@ body {
 }
 
 .tab {
-  padding-left: 35vh;
   word-wrap: break-word;
 }
 
