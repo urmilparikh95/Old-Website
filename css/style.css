@@ -60,11 +60,13 @@ body {
   transition: 0.3s;
   cursor: pointer;
   text-decoration: none;
+  color: #f7f7f7;
 }
 
 .bottom a:hover {
   opacity: 1;
   text-decoration: none;
+  color: #f7f7f7;
 }
 
 .bottom a:link {
@@ -318,7 +320,6 @@ body {
     padding: 2.5vh 2.5vh 2.5vh 2.5vh;
     font-size: 6vh;
     opacity: 1;
-    transition: 0.3s;
     cursor: pointer;
     color: #141414;
   }
@@ -336,7 +337,6 @@ body {
     padding: 3.5vh 3.5vh 3.5vh 3.5vh;
     font-size: 7vh;
     opacity: 1;
-    transition: 0.3s;
     cursor: pointer;
     color: #141414;
   }
