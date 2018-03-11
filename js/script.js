@@ -66,9 +66,10 @@ $(document).ready(function () {
     } else {
       content = h + ":" + m + " <root@" + response.ip + ">";
     }
-    len = content.length - 8;
+    setTimeout(function(){console.log($('.shell-body li').width());},3000)
+    len = content.length+3;
     $('head').append('<style>.shell-body li:before{content: "' + content + '" !important;}</style>');
-    $('head').append('<style>.tab {padding-left: ' + len + 'em;}</style>');
+    $('head').append('<style>.tab {padding-left: ' + len + 'ch;}</style>');
   }, "jsonp");
 
 });
