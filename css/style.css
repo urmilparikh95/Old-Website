@@ -188,6 +188,7 @@ body {
   .shell-body {
     overflow-y: scroll;
     overflow: -moz-scrollbars-vertical;
+    background: #141414;
   }
 }
 
@@ -198,6 +199,7 @@ body {
   .shell-body {
     overflow-y: scroll;
     overflow: -moz-scrollbars-vertical;
+    background: #141414;
   }
 }
 
