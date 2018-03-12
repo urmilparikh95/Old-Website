@@ -12,7 +12,8 @@ $(document).ready(function () {
         "-moz-background-size": "cover",
         "-o-background-size": "cover",
         "background-size": "cover",
-        "background-position": "center"
+        "background-position": "center",
+        "height": "100%"
       });
       bg.fadeIn(2000);
     });
