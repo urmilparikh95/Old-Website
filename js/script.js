@@ -4,7 +4,7 @@ $(document).ready(function () {
 
   setInterval(function () {
 
-    bg.fadeOut(1500, function () {
+    bg.fadeOut(2000, function () {
       bg.css({
         "height": "100vh",
         "background": "url(img/b0" + i + ".jpg)  no-repeat",
@@ -15,7 +15,7 @@ $(document).ready(function () {
         "background-position": "center",
         "height": "100%"
       });
-      bg.fadeIn(1500);
+      bg.fadeIn(2000);
     });
 
     i = i + 1;
