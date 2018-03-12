@@ -4,7 +4,7 @@ $(document).ready(function () {
 
   setInterval(function () {
 
-    bg.fadeOut(2000, function () {
+    bg.fadeOut(1500, function () {
       bg.css({
         "height": "100vh",
         "background": "url(img/b0" + i + ".jpg)  no-repeat",
@@ -15,15 +15,15 @@ $(document).ready(function () {
         "background-position": "center",
         "height": "100%"
       });
-      bg.fadeIn(2000);
+      bg.fadeIn(1500);
     });
 
     i = i + 1;
-    if (i > 7) {
+    if (i > 8) {
       i = 1;
     }
 
-  }, 250000);
+  }, 25000);
 
   $('#about').click(function () {
     $('.tab-content').removeClass('current');
@@ -79,6 +79,7 @@ new TypeIt('.shell-body', {
   lifeLike: false,
   cursorChar: '&#9608;',
   callback: function () {
+    $('.project').css({"text-decoration": "underline"});
     $('.project').click(function () {
       $('.tab-content').removeClass('current');
       $('#tab-2').addClass('current');
