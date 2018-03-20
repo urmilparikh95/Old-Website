@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/urmil_parikh
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://urmilparikh.me
+  * I am urmil_parikh (https://keybase.io/urmil_parikh) on keybase.
+  * I have a public key ASBbRGYlQSzGUTGD37fxeBMdaHZqPGjxKN-szAQHtEFJwwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205b446625412cc6513183dfb7f178131d68766a3c68f128dfaccc0407b44149c30a",
+      "host": "keybase.io",
+      "kid": "01205b446625412cc6513183dfb7f178131d68766a3c68f128dfaccc0407b44149c30a",
+      "uid": "5bcb710ceca13572ccf339cba93fdf19",
+      "username": "urmil_parikh"
+    },
+    "merkle_root": {
+      "ctime": 1521573611,
+      "hash": "ceb1a84b792f309509211f7c8bbc97897a5fe2a463e79c2e1726ca0033ce6fedc6cdce464b7635c2695978967198ba23ca7d4599eaa0e5717c8c557484f90481",
+      "hash_meta": "2c5f88da3a7671476eb4c5266173700d1f59b6d0da585b09cd5de74ee42fb48d",
+      "seqno": 2262598
+    },
+    "service": {
+      "hostname": "urmilparikh.me",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.45"
+  },
+  "ctime": 1521573622,
+  "expire_in": 504576000,
+  "prev": "07ca8022206a758c3671329c4d0dafffe8f4fcb50d37e73b4182fe60eebad2c3",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgW0RmJUEsxlExg9+38XgTHWh2ajxo8SjfrMwEB7RBScMKp3BheWxvYWTFA0l7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNWI0NDY2MjU0MTJjYzY1MTMxODNkZmI3ZjE3ODEzMWQ2ODc2NmEzYzY4ZjEyOGRmYWNjYzA0MDdiNDQxNDljMzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNWI0NDY2MjU0MTJjYzY1MTMxODNkZmI3ZjE3ODEzMWQ2ODc2NmEzYzY4ZjEyOGRmYWNjYzA0MDdiNDQxNDljMzBhIiwidWlkIjoiNWJjYjcxMGNlY2ExMzU3MmNjZjMzOWNiYTkzZmRmMTkiLCJ1c2VybmFtZSI6InVybWlsX3BhcmlraCJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUyMTU3MzYxMSwiaGFzaCI6ImNlYjFhODRiNzkyZjMwOTUwOTIxMWY3YzhiYmM5Nzg5N2E1ZmUyYTQ2M2U3OWMyZTE3MjZjYTAwMzNjZTZmZWRjNmNkY2U0NjRiNzYzNWMyNjk1OTc4OTY3MTk4YmEyM2NhN2Q0NTk5ZWFhMGU1NzE3YzhjNTU3NDg0ZjkwNDgxIiwiaGFzaF9tZXRhIjoiMmM1Zjg4ZGEzYTc2NzE0NzZlYjRjNTI2NjE3MzcwMGQxZjU5YjZkMGRhNTg1YjA5Y2Q1ZGU3NGVlNDJmYjQ4ZCIsInNlcW5vIjoyMjYyNTk4fSwic2VydmljZSI6eyJob3N0bmFtZSI6InVybWlscGFyaWtoLm1lIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC40NSJ9LCJjdGltZSI6MTUyMTU3MzYyMiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiIwN2NhODAyMjIwNmE3NThjMzY3MTMyOWM0ZDBkYWZmZmU4ZjRmY2I1MGQzN2U3M2I0MTgyZmU2MGVlYmFkMmMzIiwic2Vxbm8iOjYsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA/8TCrqumJTOrwUbEZkgviUb/k4S8myLj2SWr0TDq8UhHEQGNWTA7Kil9BPb7SYUHcm8AoL4DVEI+aGtel+eTDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIK+a/UA0INKtnOBKVe5ylsvu8ptMNnzZ3NeuGZ5jOjKXo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/urmil_parikh
+
+==================================================================
